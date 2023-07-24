@@ -1,8 +1,8 @@
 :root {
     --azul-claro: #76c3e9f3;
-    --azul-claro2: #1c7bbfa5;
     --azul-escuro: #1C7BBF;
     --cinza: #838383;
+    --cinza-escuro: #424242;
 }
 
 * {
@@ -29,7 +29,7 @@ nav > h1 {
 }
 
 nav > h1 > span {
-    color: var(--cinza-claro);
+    color: var(--cinza);
 }
 
 nav > ul > li {
@@ -82,8 +82,8 @@ div.background {
 
 div.color {
     position: absolute;
-    background-color: var(--azul-claro2);
-    opacity: 90%;
+    background-color: var(--azul-escuro);
+    opacity: 60%;
     background-size: cover;
     height: 500px;
     width: 100vw;
@@ -164,6 +164,7 @@ div.card > p > span {
     font-size: 10px;
     font-weight: bold;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 div.cinza {
@@ -187,3 +188,12 @@ div.azul > p > span:hover {
     background-color: var(--azul-claro);
 }
 
+section.especialistas {
+    height: 235px;
+}
+
+section.especialistas > h2 {
+    color: var(--cinza-escuro);
+    font-weight: bold;
+    text-transform: uppercase;
+}
