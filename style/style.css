@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --azul-claro: #76c3e9f3;
+    --azul-claro2: #1c7bbfa5;
+    --azul-escuro: #1C7BBF;
+    --cinza-escuro: #838383;
+    --cinza-claro: #818286;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > img {
+    height: 150px;
+    width: 150px;
+    margin-left: -40px;
+}
+
+nav > h1 {
+    margin-left: -35px;
+    color: var(--azul-escuro);
+}
+
+nav > h1 > span {
+    color: var(--cinza-claro);
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li:hover {
+    color: var(--azul-escuro);
+    transition: 0.5s;
+}
+
+ul {
+    margin-left: 450px;
+}
+
+button.botao-nav {
+    background-color: var(--azul-escuro);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    margin-left: 60px;
+}
+
+section.principal {
+    position: relative;
+    height: 500px;
+}
+
+div.img-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.background-color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.5); 
+    z-index: 0;
+}
+
+button.botao-principal {
+    background-color: transparent;
+    border: #1C7BBF;
+    color: white;
+    border: white 2px solid;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+}
