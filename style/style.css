@@ -8,11 +8,16 @@
     --azul-escuro: #1C7BBF;
     --cinza: #838383;
     --cinza-escuro: #424242;
+    --cinza-claro: rgb(235, 235, 235);
 }
 
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 nav {
@@ -73,12 +78,11 @@ button.botao-nav:hover {
 section.principal {
     position: relative;
     height: 500px;
-    width: 100vw;
 }
 
 div.background {
     position: absolute;
-    background-image: url(../img/background2.png);
+    background-image: url(../img/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -108,11 +112,12 @@ div.apresentacao {
 }
 
 div.apresentacao > h2 {
-
+    font-family: 'Bebas', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
     font-size: 50px;
     width: 400px;
     text-align: center;
-    line-height: 40px;
+    line-height: 55px;
 }
 
 div.apresentacao > p {
@@ -199,8 +204,10 @@ section.especialistas {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: var(--cinza-claro);
     margin-top: 50px;
-    height: 350px;
+    margin-bottom: 50px;
+    height: 330px;
     gap: 5px;
 }
 
@@ -232,8 +239,7 @@ div.infos {
     align-items: center;
     flex-direction: column;
     width: 200px;
-    height: 180px;
-    gap: 10px;
+    height: 200px;
 }
 
 div.infos > img {
@@ -241,18 +247,103 @@ div.infos > img {
     width: 40px;
 } 
 
-div.infos > img.especial {
-    height: 60px;
-    width: 60px;
+div.infos > img.icon1 {
+    
+    margin-top: 15px;
 } 
 
-div.infos > img.especial2 {
-    height: 45px;
-    width: 55px;
-    gap: 10px;
+div.infos > img.icon2 {
+    
+    margin-top: 15px;
 } 
+
+div.infos > img.icon3 {
+   
+    margin-top: 15px;
+}
+
+div.infos > h3.especialista1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.infos > h3.especialista2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.infos > h3.especialista3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 div.infos > p {
     font-size: 12px;
     width: 150px;
+}
+
+section.experiencia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 250px;
+    width: 850px;
+    gap: 15px;
+}
+
+div.container > div.img-container {
+    display: flex;
+}
+
+div.container > div.img-container > img {
+    height: 250px;
+    width: 430px;
+    border-radius: 10px;
+}
+
+div.container > div.texto-experiencia {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--azul-escuro);
+    height: 250px;
+    width: 430px;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+div.container > div.texto-experiencia > h3 {
+    color: white;
+    text-align: left;
+    margin: 0px 65px;
+   
+}
+
+div.container > div.texto-experiencia > p {
+    color: white;
+    width: 300px;
+    text-align: left;
+    margin: 0px 65px;
+}
+
+section.avaliacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azul-escuro);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0px;
+    height: 70px;
 }
