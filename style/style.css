@@ -228,11 +228,6 @@ section.especialistas > div.infos-especialistas {
     justify-content: center;
 }
 
-div.infos-especialistas {
-    margin-top: 20px;
-    gap: 50px;
-}
-
 div.infos {
     display: flex;
     justify-content: center;
