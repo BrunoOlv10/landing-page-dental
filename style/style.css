@@ -353,7 +353,7 @@ div.cliente > div.img-cliente {
     display: flex;
     height: 85px;
     width: 85px;
-    background-color: var(--cinza-escuro);
+    background-color: var(--cinza-claro);
     border-radius: 50%;
 }
 
@@ -364,8 +364,8 @@ div.cliente > div.img-cliente > img {
 div.img-cliente > img.cliente1 {
     position: absolute;
     height: 60px;
-    width: 65px;
-    margin-left: 10px;
+    width: 59px;
+    margin-left: 14px;
     margin-top: 10px;
 }
 
@@ -380,8 +380,8 @@ div.img-cliente > img.cliente2 {
 div.img-cliente > img.cliente3 {
     position: absolute;
     height: 60px;
-    width: 65px;
-    margin-left: 10px;
+    width: 55px;
+    margin-left: 15px;
     margin-top: 10px;
 }
 
