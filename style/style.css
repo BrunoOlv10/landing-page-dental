@@ -8,7 +8,7 @@
     --azul-escuro: #1C7BBF;
     --cinza: #838383;
     --cinza-escuro: #424242;
-    --cinza-claro: rgb(235, 235, 235);
+    --cinza-claro: #ebebeb;
 }
 
 * {
@@ -242,32 +242,12 @@ div.infos > img {
     width: 40px;
 } 
 
-div.infos > img.icon1 {
+div.infos > img.icon {
     
     margin-top: 15px;
 } 
 
-div.infos > img.icon2 {
-    
-    margin-top: 15px;
-} 
-
-div.infos > img.icon3 {
-   
-    margin-top: 15px;
-}
-
-div.infos > h3.especialista1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-div.infos > h3.especialista2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-div.infos > h3.especialista3 {
+div.infos > h3.especialista-card {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -330,7 +310,7 @@ div.container > div.texto-experiencia > p {
     margin: 0px 65px;
 }
 
-section.avaliacoes {
+div.texto-avaliacoes {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -341,4 +321,78 @@ section.avaliacoes {
     text-align: center;
     margin: 50px 0px;
     height: 70px;
+}
+
+section.avaliacoes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+}
+
+section.avaliacoes > div.cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 235px;
+    width: 200px;
+    border-radius: 5px;
+    gap: 10px;
+    border: var(--cinza) 2px solid;
+}
+
+section.avaliacoes > div.cliente > p {
+    font-size: 12px;
+    width: 150px;
+}
+
+div.cliente > div.img-cliente {
+    display: flex;
+    height: 85px;
+    width: 85px;
+    background-color: var(--cinza-escuro);
+    border-radius: 50%;
+}
+
+div.cliente > div.img-cliente > img {
+    position: absolute;
+}
+
+div.img-cliente > img.cliente1 {
+    position: absolute;
+    height: 60px;
+    width: 65px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div.img-cliente > img.cliente2 {
+    position: absolute;
+    height: 60px;
+    width: 64px;
+    margin-left: 14px;
+    margin-top: 7px;
+}
+
+div.img-cliente > img.cliente3 {
+    position: absolute;
+    height: 60px;
+    width: 65px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div.img-cliente > img.cliente4 {
+    position: absolute;
+    height: 55px;
+    width: 62px;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+
+footer {
+    height: 200px;
 }
