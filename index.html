@@ -6,6 +6,7 @@
     <title>Landing Dental</title>
     <link rel="stylesheet" href="style/style.css" />
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <script src="js/script.js"></script>
   </head>
   <body>
     <header>
@@ -165,17 +166,19 @@
     <footer>
       <div class="endereco-contato">
         <div class="contato">
-          <a href="#"><img src="img/face-logo.png" alt="face"></a>
+          <a href="#" id="face"><img src="img/face-logo.png" alt="face" onmouseover="mudarFace()" onmouseout="voltarFace()"></a>
 
-          <a href="#"><img class="insta" src="img/insta-logo.png" alt="insta"></a>
+          <a href="#" id="insta"><img class="insta" src="img/insta-logo.png" alt="insta" onmouseover="mudarInsta()" onmouseout="voltarInsta()"></a>
 
-          <a href="#"><img class="linkedin" src="img/linkedin-logo.png" alt="linkedin"></a>
+          <a href="#" id="linkedin"><img class="linkedin" src="img/linkedin-logo.png" alt="linkedin" onmouseover="mudarLinkedin()" onmouseout="voltarLinkedin()"></a>
 
-          <a href="#"><img class="twitter" src="img/twitter-logo.png" alt="twitter"></a>
+          <a href="#" id="twitter"><img class="twitter" src="img/twitter-logo.png" alt="twitter" onmouseover="mudarTwitter()" onmouseout="voltarTwitter()"></a>
         </div>
 
         <div class="logo">
-          <img src="img/logo-branca.png" alt="logo-dental" />
+          <div id="logo-dental">
+            <img src="img/logo-branca.png" alt="logo-dental" onmouseover="mudarLogo()" onmouseout="voltarLogo()"/>
+          </div>
           <h3>DentalLogo</h3>
         </div>
       </div>

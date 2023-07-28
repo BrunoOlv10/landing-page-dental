@@ -39,13 +39,13 @@ nav {
 }
 
 nav img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin-left: -40px;
 }
 
 nav h1 {
-    margin-left: -5px;
+    margin-left: 0px;
     color: var(--azul-escuro);
 }
 
@@ -436,7 +436,7 @@ footer div.logo {
     justify-content: center;
 }
 
-footer div.logo > img {
+footer div.logo > div#logo-dental > img {
     height: 50px;
     width: 50px;
 }
