@@ -441,7 +441,7 @@ footer div.logo > div#logo-dental > img {
     width: 50px;
 }
 
-footer div.logo > h3 {
+footer div.logo > div#mudar-dental, div#mudar-palavra-logo > h3 {
     color: white;
 }
 
@@ -449,18 +449,12 @@ footer div.separador {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer div.separador > div.linha {
+    width: 1213px;
+    border: 1px solid white;
     margin-bottom: 20px;
-}
-
-footer div.separador > div.linha {
-    width: 1213px;
-    border: 1px solid white;
-}
-
-footer div.separador > div.linha {
-    width: 1213px;
-    border: 1px solid white;
-    /* margin-bottom: 20px; */
 }
 
 footer div.maps-ultimas-infos {
@@ -487,7 +481,6 @@ footer div.google-maps > p {
     width: 219px;
     margin-left: 10px;
 }
-
 
 footer div.mais-infos {
     display: flex;
