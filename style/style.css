@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: 'Bebas';
     src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
@@ -373,38 +375,12 @@ section.avaliacoes > div.cliente > p {
 
 div.cliente > div.img-cliente {
     display: flex;
-    height: 85px;
-    width: 85px;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
     background-color: var(--cinza-claro);
     border-radius: 50%;
-}
-
-div.img-cliente > img.cliente1 {
-    height: 55px;
-    width: 62px;
-    margin-top: 12px;
-    margin-left: 11px;
-}
-
-div.img-cliente > img.cliente2 {
-    height: 60px;
-    width: 64px;
-    margin-top: 7px;
-    margin-left: 14px;
-}
-
-div.img-cliente > img.cliente3 {
-    height: 60px;
-    width: 55px;
-    margin-top: 7px;
-    margin-left: 15px;
-}
-
-div.img-cliente > img.cliente4 {
-    height: 55px;
-    width: 62px;
-    margin-top: 11px;
-    margin-left: 11px;
 }
 
 footer {
