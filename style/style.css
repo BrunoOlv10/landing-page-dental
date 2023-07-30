@@ -26,8 +26,6 @@ body {
 
 header {
     position: fixed;
-    width: 100vw;
-    height: 100px;
     background-color: white;
     top: 0;
     z-index: 999;
@@ -37,36 +35,51 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 15vh;
+    width: 100vw;
+    gap: 20%;
 }
 
-nav img {
-    height: 80px;
-    width: 80px;
-    margin-left: -40px;
+nav div.logo-principal {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 20%;
 }
 
-nav h1 {
-    margin-left: 0px;
+nav div.logo-principal > img {
+    height: 70%;
+    width: 30%;
+    margin-left: -2%;
+}
+
+nav > div.logo-principal > h1 {
     color: var(--azul-escuro);
+    font-size: 200%;
 }
 
 nav h1 > span {
     color: var(--cinza);
 }
 
-nav > ul {
-    margin-left: 350px;
+nav > div.abas-botao {
+    display: flex;
+    align-items: center;
+    width: 46%;
 }
 
-nav > ul > li {
+nav > div.abas-botao > ul {
+    margin-right: 10%;
+}
+
+nav > div.abas-botao > ul > li {
     display: inline-block;
     margin: 0 7px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
 
-nav > ul > li > a {
+nav > div.abas-botao > ul > li > a {
     display: inline-block;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -74,7 +87,7 @@ nav > ul > li > a {
     color: black;
 }
 
-a:hover {
+nav > div.abas-botao > ul > li > a:hover {
     color: var(--azul-escuro);
     transition: 0.5s;
     cursor: pointer;
@@ -85,9 +98,8 @@ button.botao-nav {
     color: white;
     border: none;
     border-radius: 5px;
-    height: 40px;
-    width: 130px;
-    margin-left: 60px;
+    height: 3.2em;
+    width: 19.5%;
 }
 
 button.botao-nav:hover {
