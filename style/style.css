@@ -44,18 +44,18 @@ nav div.logo-principal {
     display: flex;
     align-items: center;
     height: 100%;
-    width: 20%;
+    width: 17%;
 }
 
 nav div.logo-principal > img {
-    height: 70%;
-    width: 30%;
+    height: 60%;
+    width: 25%;
     margin-left: -2%;
 }
 
 nav > div.logo-principal > h1 {
     color: var(--azul-escuro);
-    font-size: 200%;
+    font-size: 2em;
 }
 
 nav h1 > span {
@@ -65,11 +65,11 @@ nav h1 > span {
 nav > div.abas-botao {
     display: flex;
     align-items: center;
-    width: 46%;
+    width: 48%;
 }
 
 nav > div.abas-botao > ul {
-    margin-right: 10%;
+    margin-right: 7%;
 }
 
 nav > div.abas-botao > ul > li {
@@ -109,12 +109,12 @@ button.botao-nav:hover {
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 8%;
 }
 
 section.principal {
     position: relative;
-    height: 500px;
+    height: 31.2em;
 }
 
 div.background {
@@ -122,7 +122,6 @@ div.background {
     background-image: url(../img/background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
     width: 100vw;
 }
 
@@ -131,34 +130,32 @@ div.color {
     background-color: var(--azul-escuro);
     opacity: 60%;
     background-size: cover;
-    height: 500px;
+    height: 100%;
     width: 100vw;
-    display: flex;
 }
 
 div.apresentacao {
-    position: relative;
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     color: white;
-    width: 100vw;
-    height: 500px;
-    gap: 30px;
+    height: 31em;
+    gap: 3%;
 }
 
 div.apresentacao > h2 {
     font-family: 'Bebas', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
-    font-size: 50px;
-    width: 400px;
+    font-size: 3em;
+    width: 30%;
     text-align: center;
-    line-height: 55px;
+    line-height: 105%;
 }
 
 div.apresentacao > p {
-    width: 400px;
+    width: 30%;
     text-align: center;
 }
 
@@ -167,9 +164,9 @@ button.botao-principal {
     color: white;
     border: white 2px solid;
     border-radius: 5px;
-    height: 45px;
-    width: 140px;
-    margin-top: 20px;
+    height: 3.5em;
+    width: 10.6em;
+    margin-top: 1.5em;
 }
 
 button.botao-principal:hover {
@@ -181,8 +178,8 @@ button.botao-principal:hover {
 section.servicos {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    margin-top: 50px;
+    gap: 4%;
+    margin-top: 4%;
     color: white;
     text-align: center;
 }
@@ -192,24 +189,24 @@ div.card {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 235px;
-    width: 200px;
+    height: 14em;
+    width: 12.5em;
     border-radius: 5px;
-    gap: 10px;
+    gap: 4%;
 }
 
-div.card > img {
-    height: 70px;
-    width: 70px;
+div.card > div > img {
+    height: 90%;
+    width: 103%;
 }
 
 div.card > p {
-    font-size: 12px;
-    width: 150px;
+    font-size: 0.8em;
+    width: 75%;
 }
 
 div.card > p > span {
-    font-size: 10px;
+    font-size: 0.7em;
     font-weight: bold;
     text-decoration: underline;
     text-transform: uppercase;
@@ -242,16 +239,16 @@ section.especialistas {
     justify-content: center;
     flex-direction: column;
     background-color: var(--cinza-claro);
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 330px;
-    gap: 5px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    height: 20em;
+    gap: 1%;
 }
 
 section.especialistas > h2 {
     font-family: 'Bebas', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--cinza-escuro);
-    font-size: 25px;
+    font-size: 1.5em;
     text-transform: uppercase;
 }
 
@@ -269,27 +266,26 @@ div.infos {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 200px;
-    height: 200px;
+    width: 12.5em;
+    height: 12em;
 }
 
 div.infos > img {
-    height: 40px;
-    width: 40px;
+    height: 20.5%;
+    width: 20%;
 } 
 
 div.infos > img.icon {
-    
-    margin-top: 15px;
+    margin-top: 7%;
 } 
 
 div.infos > h3.especialista-card {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 div.infos > p {
-    font-size: 12px;
+    font-size: 0.75em;
     width: 150px;
 }
 
@@ -297,7 +293,7 @@ section.experiencia {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.3em;
 }
 
 div.container {
@@ -305,9 +301,7 @@ div.container {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    height: 250px;
-    width: 850px;
-    gap: 15px;
+    gap: 1.8%;
 }
 
 div.container > div.img-container {
@@ -315,8 +309,8 @@ div.container > div.img-container {
 }
 
 div.container > div.img-container > img {
-    height: 250px;
-    width: 430px;
+    height: 39vh;
+    width: 32.5vw;
     border-radius: 10px;
 }
 
@@ -326,17 +320,16 @@ div.container > div.texto-experiencia {
     justify-content: center;
     flex-direction: column;
     background-color: var(--azul-escuro);
-    height: 250px;
-    width: 430px;
-    gap: 15px;
+    height: 39vh;
+    width: 32.5vw;
+    gap: 7%;
     border-radius: 10px;
 }
 
 div.container > div.texto-experiencia > h3 {
     color: white;
     text-align: left;
-    margin: 0px 65px;
-   
+    margin: 0% 15%;
 }
 
 div.container > div.texto-experiencia > p {
