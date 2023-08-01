@@ -334,9 +334,9 @@ div.container > div.texto-experiencia > h3 {
 
 div.container > div.texto-experiencia > p {
     color: white;
-    width: 300px;
+    width: 70%;
     text-align: left;
-    margin: 0px 65px;
+    margin: 0% 15.5%;
 }
 
 div.texto-avaliacoes {
@@ -348,15 +348,15 @@ div.texto-avaliacoes {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    margin: 50px 0px;
-    height: 70px;
+    margin: 4% 0%;
+    height: 10vh;
 }
 
 section.avaliacoes {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    margin: 50px 0px;
+    gap: 4%;
+    margin: 4% 0%;
     color: black;
     text-align: center;
 }
@@ -367,6 +367,12 @@ section.avaliacoes > div.cliente {
     align-items: center;
     justify-content: center;
     height: 235px;
+
+
+
+
+
+    
     width: 200px;
     border-radius: 5px;
     gap: 10px;
