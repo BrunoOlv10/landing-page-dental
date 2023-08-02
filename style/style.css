@@ -366,14 +366,8 @@ section.avaliacoes > div.cliente {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 235px;
-
-
-
-
-
-    
-    width: 200px;
+    height: 38vh;
+    width: 15vw;
     border-radius: 5px;
     gap: 10px;
     border: var(--cinza) 2px solid;
