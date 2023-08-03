@@ -369,27 +369,27 @@ section.avaliacoes > div.cliente {
     height: 38vh;
     width: 15vw;
     border-radius: 5px;
-    gap: 10px;
+    gap: 4%;
     border: var(--cinza) 2px solid;
 }
 
 section.avaliacoes > div.cliente > p {
-    font-size: 12px;
-    width: 150px;
+    font-size: 0.75em;
+    width: 24vh;
 }
 
 div.cliente > div.img-cliente {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75px;
-    width: 75px;
+    height: 11.5vh;
+    width: 5.7vw;
     background-color: var(--cinza-claro);
     border-radius: 50%;
 }
 
 footer {
-    height: 280px;
+    height: 44vh;
     background-color: var(--cinza-alternativo);
 }
 
@@ -397,18 +397,20 @@ footer div.endereco-contato {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70px;
-    gap: 800px;
+    height: 11vh;
+    width: 100vw;
+    gap: 62vw;
 }
 
 footer div.contato {
     display: flex;
-    gap: 15px;
+    width: 8.5vw;
+    gap: 10%;
 }
 
 footer div.contato > a > img {
-    height: 20px;
-    width: 20px;
+    height: 3vh;
+    width: 1.5vw;
 }
 
 footer div.logo {
@@ -418,8 +420,8 @@ footer div.logo {
 }
 
 footer div.logo > div#logo-dental > img {
-    height: 50px;
-    width: 50px;
+    height: 7vh;
+    width: 3.5vw;
 }
 
 footer div.logo > div#mudar-dental, div#mudar-palavra-logo > h3 {
@@ -433,17 +435,17 @@ footer div.separador {
 }
 
 footer div.separador > div.linha {
-    width: 1213px;
+    width: 190vh;
     border: 1px solid white;
-    margin-bottom: 20px;
+    margin-bottom: 1.5%;
 }
 
 footer div.maps-ultimas-infos {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
-    margin-bottom: 20px;
+    gap: 7.5%;
+    margin-bottom: 1.5%;
 }
 
 footer div.google-maps {
@@ -453,26 +455,26 @@ footer div.google-maps {
 }
 
 footer div.google-maps > a > img {
-    height: 120px;
-    width: 219px;
+    height: 19vh;
+    width: 16.5vw;
 }
 
 footer div.google-maps > p {
     color: white;
-    width: 219px;
-    margin-left: 10px;
+    width: 17.3vw;
+    margin-left: 2%;
 }
 
 footer div.mais-infos {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 3em;
     color: white;
-    height: 100px;
+    height: 10vh;
 }
 
 footer div.mais-infos > p {
-    width: 180px;
-    font-size: 12px;
+    width: 14vw;
+    font-size: 0.75em;
 }
