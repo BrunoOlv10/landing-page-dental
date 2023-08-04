@@ -37,25 +37,25 @@ nav {
     justify-content: center;
     height: 15vh;
     width: 100vw;
-    gap: 20%;
+    gap: 15%;
 }
 
 nav div.logo-principal {
     display: flex;
     align-items: center;
     height: 100%;
-    width: 17%;
+    width: 20vw;
 }
 
 nav div.logo-principal > img {
-    height: 60%;
-    width: 25%;
+    height: 10vh;
+    width: 5vw;
     margin-left: -2%;
 }
 
 nav > div.logo-principal > h1 {
     color: var(--azul-escuro);
-    font-size: 2em;
+    font-size: 4vh;
 }
 
 nav h1 > span {
@@ -65,11 +65,12 @@ nav h1 > span {
 nav > div.abas-botao {
     display: flex;
     align-items: center;
-    width: 48%;
+    width: 55%;
 }
 
 nav > div.abas-botao > ul {
     margin-right: 7%;
+    font-size: 2.5vh;
 }
 
 nav > div.abas-botao > ul > li {
@@ -98,8 +99,9 @@ button.botao-nav {
     color: white;
     border: none;
     border-radius: 5px;
-    height: 3.2em;
+    height: 6vh;
     width: 19.5%;
+    font-size: 2vh;
 }
 
 button.botao-nav:hover {
@@ -114,7 +116,7 @@ main {
 
 section.principal {
     position: relative;
-    height: 31.2em;
+    height: 70vh;
 }
 
 div.background {
@@ -122,6 +124,7 @@ div.background {
     background-image: url(../img/background.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 70vh;
     width: 100vw;
 }
 
@@ -130,7 +133,7 @@ div.color {
     background-color: var(--azul-escuro);
     opacity: 60%;
     background-size: cover;
-    height: 100%;
+    height: 70vh;
     width: 100vw;
 }
 
@@ -141,20 +144,27 @@ div.apresentacao {
     justify-content: center;
     flex-direction: column;
     color: white;
-    height: 31em;
+    height: 70vh;
     gap: 3%;
 }
 
 div.apresentacao > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Bebas', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
-    font-size: 3em;
-    width: 30%;
+    font-size: 5vh;
+    width: 25%;
     text-align: center;
     line-height: 105%;
 }
 
 div.apresentacao > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vh;
     width: 30%;
     text-align: center;
 }
@@ -164,8 +174,9 @@ button.botao-principal {
     color: white;
     border: white 2px solid;
     border-radius: 5px;
-    height: 3.5em;
-    width: 10.6em;
+    height: 6vh;
+    width: 10vw;
+    font-size: 2vh;
     margin-top: 1.5em;
 }
 
@@ -316,7 +327,6 @@ div.container > div.img-container > img {
 
 div.container > div.texto-experiencia {
     display: flex;
-    align-items: left;
     justify-content: center;
     flex-direction: column;
     background-color: var(--azul-escuro);
