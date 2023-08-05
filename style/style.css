@@ -98,7 +98,7 @@ button.botao-nav {
     border: none;
     border-radius: 5px;
     height: 6vh;
-    width: 19.5%;
+    width: 10.5vw;
     font-size: 2vh;
 }
 
@@ -163,7 +163,7 @@ div.apresentacao > p {
     align-items: center;
     justify-content: center;
     font-size: 2.5vh;
-    width: 30%;
+    width: 30vw;
     text-align: center;
 }
 
@@ -187,8 +187,8 @@ button.botao-principal:hover {
 section.servicos {
     display: flex;
     justify-content: center;
-    gap: 4%;
-    margin-top: 4%;
+    gap: 10vh;
+    margin: 4vw;
     color: white;
     text-align: center;
 }
@@ -198,20 +198,20 @@ div.card {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 14em;
-    width: 12.5em;
+    height: 32vh;
+    width: 14vw;
     border-radius: 5px;
-    gap: 4%;
+    gap: 1.5vh;
 }
 
 div.card > div > img {
-    height: 90%;
-    width: 103%;
+    height: 7vh;
+    width: 3.5vw;
 }
 
 div.card > p {
     font-size: 0.8em;
-    width: 75%;
+    width: 10vw;
 }
 
 div.card > p > span {
@@ -248,16 +248,15 @@ section.especialistas {
     justify-content: center;
     flex-direction: column;
     background-color: var(--cinza-claro);
-    margin-top: 4%;
-    margin-bottom: 4%;
-    height: 20em;
+    height: 40vh;
     gap: 1%;
+    margin: 10vh 0;
 }
 
 section.especialistas > h2 {
     font-family: 'Bebas', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--cinza-escuro);
-    font-size: 1.5em;
+    font-size: 3.5vh;
     text-transform: uppercase;
 }
 
@@ -275,13 +274,13 @@ div.infos {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 12.5em;
-    height: 12em;
+    width: 15vw;
+    height: 28vh;
 }
 
 div.infos > img {
-    height: 20.5%;
-    width: 20%;
+    height: 5.5vh;
+    width: 3vw;
 } 
 
 div.infos > img.icon {
@@ -294,15 +293,16 @@ div.infos > h3.especialista-card {
 }
 
 div.infos > p {
-    font-size: 0.75em;
-    width: 150px;
+    font-size: 2vh;
+    width: 137px;
+    text-align: left;
 }
 
 section.experiencia {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1.3em;
+    margin: 2% 0;
 }
 
 div.container {
@@ -338,11 +338,12 @@ div.container > div.texto-experiencia > h3 {
     color: white;
     text-align: left;
     margin: 0% 15%;
+    font-size: 2.7vh;
 }
 
 div.container > div.texto-experiencia > p {
     color: white;
-    width: 70%;
+    width: 22vw;
     text-align: left;
     margin: 0% 15.5%;
 }
@@ -356,17 +357,17 @@ div.texto-avaliacoes {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    margin: 4% 0%;
     height: 10vh;
+    margin: 10vh 0;
 }
 
 section.avaliacoes {
     display: flex;
     justify-content: center;
-    gap: 4%;
-    margin: 4% 0%;
     color: black;
     text-align: center;
+    margin: 10vh;
+    gap: 3vw;
 }
 
 section.avaliacoes > div.cliente {
@@ -377,12 +378,12 @@ section.avaliacoes > div.cliente {
     height: 38vh;
     width: 15vw;
     border-radius: 5px;
-    gap: 4%;
     border: var(--cinza) 2px solid;
+    gap: 5%;
 }
 
 section.avaliacoes > div.cliente > p {
-    font-size: 0.75em;
+    font-size: 1.7vh;
     width: 24vh;
 }
 
@@ -413,7 +414,7 @@ footer div.endereco-contato {
 footer div.contato {
     display: flex;
     width: 8.5vw;
-    gap: 10%;
+    gap: 1vw;
 }
 
 footer div.contato > a > img {
@@ -445,15 +446,15 @@ footer div.separador {
 footer div.separador > div.linha {
     width: 190vh;
     border: 1px solid white;
-    margin-bottom: 1.5%;
+    margin-bottom: 3.5vh;
 }
 
 footer div.maps-ultimas-infos {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 7.5%;
-    margin-bottom: 1.5%;
+    gap: 7.5vw;
+    margin-bottom: 3.5vh;
 }
 
 footer div.google-maps {
@@ -477,12 +478,12 @@ footer div.mais-infos {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3em;
+    gap: 3vw;
     color: white;
     height: 10vh;
 }
 
 footer div.mais-infos > p {
     width: 14vw;
-    font-size: 0.75em;
+    font-size: 2vh;
 }
