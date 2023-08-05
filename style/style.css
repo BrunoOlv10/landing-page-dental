@@ -43,14 +43,12 @@ nav {
 nav div.logo-principal {
     display: flex;
     align-items: center;
-    height: 100%;
-    width: 20vw;
 }
 
 nav div.logo-principal > img {
     height: 10vh;
     width: 5vw;
-    margin-left: -2%;
+    margin-left: -10%;
 }
 
 nav > div.logo-principal > h1 {
@@ -65,7 +63,7 @@ nav h1 > span {
 nav > div.abas-botao {
     display: flex;
     align-items: center;
-    width: 55%;
+    width: 55vw;
 }
 
 nav > div.abas-botao > ul {
