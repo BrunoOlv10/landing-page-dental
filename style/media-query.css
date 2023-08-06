@@ -1,17 +1,64 @@
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1000px) {
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        height: 200px;
+        width: 400px;
+    }
+
+    nav div.logo-principal > img {
+        height: 50px;
+        width: 50px;
+    }
+
+    nav > div.logo-principal > h1 {
+        font-size: 20px;
+    }
+
+    div.menu {
+        display: flex;
+        align-items: center;
+        width: 400px;
+        height: 200px;
+    }
+    
     i#burguer {
+        display: block !important;
+    }
+
+    div#itens {
         display: none;
     }
 
-    menu {
+    ul#itens {
+        flex-wrap: nowrap;
+    }
+
+    nav > menu.abas-botao > ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav > menu.abas-botao > ul > li > a {
         display: block;
     }
 
-    menu.abas-botao > ul#itens > li {
-        display: inline-block;
+    menu.abas-botao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: none !important;
+        height: 10vh !important;
     }
 
-    main {
-        width: 700px;
+    menu.abas-botao > ul#itens > li > a {
+        display: flex;
+    }
+
+    button.botao-nav {
+        width: 140px !important;
+        font-size: 15px;
     }
 }

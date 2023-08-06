@@ -37,7 +37,7 @@ nav {
     justify-content: center;
     height: 15vh;
     width: 100vw;
-    gap: 15%;
+    gap: 23%;
 }
 
 nav div.logo-principal {
@@ -48,7 +48,6 @@ nav div.logo-principal {
 nav div.logo-principal > img {
     height: 10vh;
     width: 5vw;
-    margin-left: -10%;
 }
 
 nav > div.logo-principal > h1 {
@@ -61,43 +60,40 @@ nav h1 > span {
 }
 
 nav i#burguer {
-    background-color: rgb(48, 48, 48);
-    color: white;
-    display: block;
+    color: var(--azul-escuro);
+    display: none;
     text-align: center;
     padding: 10px;
     cursor: pointer;
 }
 
- i#burguer:hover {
-    background-color: white;
-    color: black;
+ nav i#burguer:hover {
+    color: var(--azul-claro);
 }
 
-nav menu {
+nav div.menu > menu {
     display: none;
 }
 
-nav > menu.abas-botao {
+nav > div.menu > menu.abas-botao {
     display: flex;
     align-items: center;
-    width: 55vw;
+    width: 51vw;
 }
 
-nav > menu.abas-botao > div.menu > ul {
-    margin-right: 7%;
+nav > div.menu > menu.abas-botao > div#itens > ul {
     font-size: 2.5vh;
     list-style-type: none;
 }
 
-nav > menu.abas-botao > div.menu > ul > li {
+nav > div.menu > menu.abas-botao > div#itens > ul > li {
     display: inline-block;
     margin: 0 7px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
 
-nav > menu.abas-botao > div.menu > ul > li > a {
+nav > div.menu > menu.abas-botao > div#itens > ul > li > a {
     display: block;
     text-align: center;
     font-weight: bold;
@@ -106,7 +102,7 @@ nav > menu.abas-botao > div.menu > ul > li > a {
     color: black;
 }
 
-nav > menu.abas-botao > div.menu > ul > li > a:hover {
+nav > div.menu > menu.abas-botao > div#itens > ul > li > a:hover {
     color: var(--azul-escuro);
     transition: 0.5s;
     cursor: pointer;
@@ -120,6 +116,7 @@ button.botao-nav {
     height: 6vh;
     width: 10.5vw;
     font-size: 2vh;
+    margin-left: 9%;
 }
 
 button.botao-nav:hover {
@@ -129,7 +126,7 @@ button.botao-nav:hover {
 }
 
 main {
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
 section.principal {
@@ -218,7 +215,7 @@ div.card {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 32vh;
+    height: 36vh;
     width: 14vw;
     border-radius: 5px;
     gap: 1.5vh;
