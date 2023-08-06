@@ -4,27 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Dental</title>
-    <link rel="stylesheet" href="style/style.css" />
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/media-query.css">
     <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
-  <body>
+  <body onresize="mudouTamanho()">
     <header>
       <nav>
         <div class="logo-principal">
           <img src="img/logo.png" alt="logo-dental" />
           <h1>Dental<span>Logo</span></h1>
         </div>
-        <div class="abas-botao">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Departamentos</a></li>
-            <li><a href="#">Profissionais</a></li>
-            <li><a href="#">Notícias</a></li>
-            <li><a href="#">Fale Conosco</a></li>
-          </ul>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu class="abas-botao">
+          <div class="menu" id="itens">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Departamentos</a></li>
+              <li><a href="#">Profissionais</a></li>
+              <li><a href="#">Notícias</a></li>
+              <li><a href="#">Fale Conosco</a></li>
+            </ul>
+          </div>
           <button class="botao-nav">CADASTRE-SE</button>
-        </div>
+        </menu>
       </nav>
     </header>
 

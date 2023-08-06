@@ -60,33 +60,53 @@ nav h1 > span {
     color: var(--cinza);
 }
 
-nav > div.abas-botao {
+nav i#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+nav menu {
+    display: none;
+}
+
+nav > menu.abas-botao {
     display: flex;
     align-items: center;
     width: 55vw;
 }
 
-nav > div.abas-botao > ul {
+nav > menu.abas-botao > div.menu > ul {
     margin-right: 7%;
     font-size: 2.5vh;
+    list-style-type: none;
 }
 
-nav > div.abas-botao > ul > li {
+nav > menu.abas-botao > div.menu > ul > li {
     display: inline-block;
     margin: 0 7px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
 
-nav > div.abas-botao > ul > li > a {
-    display: inline-block;
+nav > menu.abas-botao > div.menu > ul > li > a {
+    display: block;
+    text-align: center;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     color: black;
 }
 
-nav > div.abas-botao > ul > li > a:hover {
+nav > menu.abas-botao > div.menu > ul > li > a:hover {
     color: var(--azul-escuro);
     transition: 0.5s;
     cursor: pointer;
