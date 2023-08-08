@@ -1,3 +1,19 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+:root {
+    --azul-claro: #72c3ec;
+    --azul-escuro: #1C7BBF;
+    --cinza-claro: #ebebeb;
+    --cinza: #838383;
+    --cinza-alternativo: #818286;
+    --cinza-escuro: #424242;
+}
+
 @media screen and (max-width: 1000px) {
     nav {
         display: flex;
@@ -23,12 +39,12 @@
         width: 400px;
         height: 200px;
     }
-/*     
-    i#burguer {
+    
+    i#mobile-menu {
         display: block !important;
     }
 
-    div#itens {
+    /* div#itens {
         display: none;
     }
 
@@ -36,14 +52,30 @@
         flex-wrap: nowrap;
     } */
 
-    nav > menu.abas-botao > ul {
+    nav menu.abas-botao > ul.nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 92vh;
+        background-color: var(--azul-escuro);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translate(100%);
+    }
+
+    nav > menu.abas-botao > ul.nav-list {
         display: flex;
         flex-wrap: wrap;
     }
 
-    nav > menu.abas-botao > ul > li > a {
-        display: block;
+    nav > menu.abas-botao > ul.nav-list > li {
+        margin-left: 0;
     }
+
+    /* nav > menu.abas-botao > ul.nav-list > li > a {
+        display: block;
+    } */
 
     menu.abas-botao {
         display: flex;
@@ -51,10 +83,6 @@
         justify-content: center;
         width: none !important;
         height: 10vh !important;
-    }
-
-    menu.abas-botao > ul#itens > li > a {
-        display: flex;
     }
 
     button.botao-nav {

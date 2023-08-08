@@ -33,11 +33,13 @@ header {
 
 nav {
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
     height: 15vh;
     width: 100vw;
-    gap: 23%;
+    
+    /* justify-content: center;
+    gap: 23%; */
 }
 
 nav div.logo-principal {
@@ -60,7 +62,7 @@ nav h1 > span {
     color: var(--cinza);
 }
 
-nav i#burguer {
+nav menu.abas-botao > i#mobile-menu {
     color: var(--azul-escuro);
     display: none;
     text-align: center;
@@ -68,7 +70,7 @@ nav i#burguer {
     cursor: pointer;
 }
 
- nav i#burguer:hover {
+ nav menu.abas-botao > i#mobile-menu:hover {
     color: var(--azul-claro);
 }
 
@@ -79,29 +81,33 @@ nav menu {
     flex-direction: row;
 }
 
-nav div.menu > menu {
-    display: none;
-}
-
-nav > div.menu > menu.abas-botao {
+nav > menu.abas-botao {
     display: flex;
     align-items: center;
     width: 51vw;
 }
 
-nav > div.menu > menu.abas-botao > div#itens > ul {
+nav  menu.abas-botao > ul.nav-list {
+    list-style: none;
+    display: flex;
     font-size: 2.5vh;
     list-style-type: none;
 }
 
-nav > div.menu > menu.abas-botao > div#itens > ul > li {
-    display: inline-block;
-    margin: 0 7px;
+nav > menu.abas-botao > ul.nav-list.active {
+    transform: translateX(0);
+}
+
+nav > menu.abas-botao > ul.nav-list > li {
+    /* display: inline-block;
+    */
+    margin: 0 7px; 
+    /* margin-left: 32px;  */
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
 
-nav > div.menu > menu.abas-botao > div#itens > ul > li > a {
+nav > menu.abas-botao > ul > li > a {
     display: block;
     text-align: center;
     font-weight: bold;
@@ -110,7 +116,7 @@ nav > div.menu > menu.abas-botao > div#itens > ul > li > a {
     color: black;
 }
 
-nav > div.menu > menu.abas-botao > div#itens > ul > li > a:hover {
+nav > menu.abas-botao > ul > li > a:hover {
     color: var(--azul-escuro);
     transition: 0.5s;
     cursor: pointer;
