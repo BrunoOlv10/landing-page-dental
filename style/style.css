@@ -43,6 +43,7 @@ nav {
 nav div.logo-principal {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 nav div.logo-principal > img {
@@ -50,7 +51,7 @@ nav div.logo-principal > img {
     width: 5vw;
 }
 
-nav > div.logo-principal > h1 {
+nav div.logo-principal > h1 {
     color: var(--azul-escuro);
     font-size: 4vh;
 }
@@ -69,6 +70,13 @@ nav i#burguer {
 
  nav i#burguer:hover {
     color: var(--azul-claro);
+}
+
+nav menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 nav div.menu > menu {

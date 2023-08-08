@@ -23,7 +23,7 @@
         width: 400px;
         height: 200px;
     }
-    
+/*     
     i#burguer {
         display: block !important;
     }
@@ -34,7 +34,7 @@
 
     ul#itens {
         flex-wrap: nowrap;
-    }
+    } */
 
     nav > menu.abas-botao > ul {
         display: flex;
