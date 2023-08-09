@@ -62,7 +62,7 @@ nav h1 > span {
     color: var(--cinza);
 }
 
-nav menu.abas-botao > i#mobile-menu {
+/* nav menu.abas-botao > i#mobile-menu {
     color: var(--azul-escuro);
     display: none;
     text-align: center;
@@ -72,7 +72,7 @@ nav menu.abas-botao > i#mobile-menu {
 
  nav menu.abas-botao > i#mobile-menu:hover {
     color: var(--azul-claro);
-}
+} */
 
 nav menu {
     display: flex;
