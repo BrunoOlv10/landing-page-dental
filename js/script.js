@@ -1,36 +1,31 @@
-// function clickMenu () {
-//   if (itens.style.display == 'block') {
-//       itens.style.display = 'none'
-//   } else {
-//       itens.style.display = 'block'
-//   }
-// }
-
-// function mudouTamanho() {
-//   if (window.innerWidth >= 768) {
-//   itens.style.display = 'none'
-//   } else {
-//   itens.style.display = 'block'
-//   }
-// }
-
 class MobileNavbar {
   constructor(mobileMenu, navList, navLinks) {
     this.mobileMenu = document.querySelector(mobileMenu);
     this.navList = document.querySelector(navList);
-    this.navLinks = document.querySelector(navLinks);
+    this.navLinks = document.querySelectorAll(navLinks);
     this.activeClass = "active";
-    
+
     this.handleClick = this.handleClick.bind(this);
   }
 
+  animateLinks() {
+    this.navLinks.forEach((link, index) => {
+      link.style.animation
+        ? (link.style.animation = "")
+        : (link.style.animation = `navLinkFade 0.5s ease forwards ${
+            index / 7 + 0.3
+          }s`);
+    });
+  }
+
   handleClick() {
-    console.log(this)
     this.navList.classList.toggle(this.activeClass);
+    this.mobileMenu.classList.toggle(this.activeClass);
+    this.animateLinks();
   }
 
   addClickEvent() {
-    this.mobileMenu.addEventListener('click', this.handleClick); 
+    this.mobileMenu.addEventListener("click", this.handleClick);
   }
 
   init() {
@@ -41,13 +36,12 @@ class MobileNavbar {
   }
 }
 
-MobileNavbar = new MobileNavbar(
+const mobileNavbar = new MobileNavbar(
   ".mobile-menu",
   ".nav-list",
   ".nav-list li",
 );
-MobileNavbar.init();
-
+mobileNavbar.init();
 
 function mudarFace() {
     var face = document.getElementById('face').getElementsByTagName('img')[0];
