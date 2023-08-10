@@ -21,7 +21,8 @@
     }
 
     nav {
-      gap: 3vh;
+      gap: 2vh;
+      height: 10vh;
     }
   
     nav > .mobile-menu {
@@ -57,10 +58,10 @@
   
     .nav-list {
       position: absolute;
-      top: 15vh;
+      top: 10vh;
       left: 0;
       width: 35vw;
-      height: 80vh;
+      height: 85vh;
       background: var(--azul-escuro);
       flex-direction: column;
       gap: 10vh !important;
