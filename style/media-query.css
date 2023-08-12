@@ -96,6 +96,24 @@
       width: 25vw !important;
       font-size: 1.4vh !important;
     }
+
+    div.background {
+      margin-top: 6.5vh;
+    }
+  
+    div.apresentacao > h2 {
+      font-size: 4vh;
+      width: 85vw;
+    }
+
+    div.apresentacao > p {
+      font-size: 2.5vh;
+      width: 70vw;
+    }
+
+    button.botao-principal {
+      width: 35vw;
+    }
   }
   
   .nav-list.active {
