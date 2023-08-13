@@ -114,7 +114,40 @@
     button.botao-principal {
       width: 35vw;
     }
-  }
+
+    section.servicos {
+      height: 170vh;
+      flex-wrap: wrap;
+      margin: 35vw 0;
+    }
+
+    div.card {
+      height: 35vh;
+      width: 55vw;
+      gap: 1.5vh;
+    }
+
+    div.card > div > img {
+      height: 7vh;
+      width: 15vw;
+    }
+
+    div.card > h3 {
+      font-size: 5vw;
+    }
+  
+    div.card > p {
+      font-size: 4vw;
+      width: 40vw;
+    }
+  
+    div.card > p > span {
+      font-size: 3vw;
+      font-weight: bold;
+      text-decoration: underline;
+      text-transform: uppercase;
+    }
+}
   
   .nav-list.active {
     transform: translateX(0);
