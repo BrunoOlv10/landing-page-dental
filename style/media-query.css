@@ -147,6 +147,34 @@
       text-decoration: underline;
       text-transform: uppercase;
     }
+
+    section.especialistas {
+      height: 120vh;
+      width: 100vw;
+      flex-wrap: wrap;
+    }
+
+    section.especialistas > div.infos-especialistas {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 5vh;
+    }
+
+    div.infos {
+      flex-direction: column;
+      width: 51vw;
+      height: 28vh;
+    }
+
+    div.infos > img {
+      height: 5.5vh;
+      width: 3vw;
+    } 
+  
+    div.infos > img.icon {
+      margin-top: 7%;
+    } 
 }
   
   .nav-list.active {

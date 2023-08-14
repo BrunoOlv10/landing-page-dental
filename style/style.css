@@ -293,7 +293,7 @@ section.especialistas {
     flex-direction: column;
     background-color: var(--cinza-claro);
     height: 40vh;
-    gap: 1%;
+    gap: 1vh;
     margin: 10vh 0;
 }
 
