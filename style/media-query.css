@@ -163,18 +163,47 @@
 
     div.infos {
       flex-direction: column;
-      width: 51vw;
+      width: 55vw;
       height: 28vh;
     }
 
     div.infos > img {
       height: 5.5vh;
-      width: 3vw;
+      width: 12vw;
     } 
   
-    div.infos > img.icon {
-      margin-top: 7%;
-    } 
+    div.infos > p {
+      width: 55vw;
+      text-align: center;
+    }
+
+    div.container {
+      flex-direction: column-reverse;
+    }
+
+    div.container > div.img-container > img {
+      height: 25vh;
+      width: 75vw;
+      margin-bottom: 5vh;
+    }
+
+    div.container > div.texto-experiencia {
+      align-items: center;
+      justify-content: center;
+      height: 30vh;
+      width: 75vw;
+      gap: 3vh;
+    }
+
+    div.container > div.texto-experiencia > h3 {
+      margin: 2vh 0 0 4vw;
+      text-align: left;
+    }
+
+    div.container > div.texto-experiencia > p {
+      width: 65vw;
+      height: 39vh;
+    }
 }
   
   .nav-list.active {
