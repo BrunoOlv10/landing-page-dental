@@ -204,6 +204,27 @@
       width: 65vw;
       height: 39vh;
     }
+
+    section.avaliacoes {
+      flex-direction: column;
+      height: 150vh;
+      width: 50vw;
+      gap: 5vh;
+    }
+
+    section.avaliacoes > div.cliente {
+    height: 35vh;
+    width: 50vw;
+    }
+
+    section.avaliacoes > div.cliente > p {
+      width: 20vh;
+    }
+
+    div.cliente > div.img-cliente {
+      height: 9vh;
+      width: 15vw;
+    }
 }
   
   .nav-list.active {
