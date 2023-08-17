@@ -225,6 +225,19 @@
       height: 9vh;
       width: 15vw;
     }
+
+    footer div.endereco-contato {
+      gap: 40vw;
+    }
+
+    footer div.contato {
+      width: 20.5vw;
+      gap: 3vw;
+    }
+
+    footer div.contato > a > img {
+      width: 5vw;
+    }
 }
   
   .nav-list.active {
