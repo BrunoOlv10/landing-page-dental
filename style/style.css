@@ -493,6 +493,10 @@ footer div.separador > div.linha {
     margin-bottom: 3.5vh;
 }
 
+footer div.linha-ultima {
+    margin-bottom: 5vh;
+}
+
 footer div.maps-ultimas-infos {
     display: flex;
     align-items: center;

@@ -150,8 +150,8 @@
 
     section.especialistas {
       height: 120vh;
-      width: 100vw;
-      flex-wrap: wrap;
+      flex-wrap: w
+rap;
     }
 
     section.especialistas > div.infos-especialistas {
@@ -226,8 +226,14 @@
       width: 15vw;
     }
 
+    footer {
+      height: 88vh;
+      width: 100vw;
+    }
+
     footer div.endereco-contato {
-      gap: 40vw;
+      gap: 30vw;
+
     }
 
     footer div.contato {
@@ -237,6 +243,56 @@
 
     footer div.contato > a > img {
       width: 5vw;
+    }
+
+    footer div.logo > div#logo-dental > img {
+      width: 12.5vw;
+    }
+
+    footer div.separador {
+      height: 1vh;
+  }
+
+    footer div.separador > div.linha {
+      margin: 3.5vh 0;
+    }
+  
+    footer div.maps-ultimas-infos {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 70vh;
+      width: 100vw;
+      margin-bottom: -11vh !important;
+      gap: 5vh;
+    }
+
+    footer div.google-maps {
+      flex-direction: column;
+      margin-top: -15vh;
+      margin-bottom: 3vh;
+    }
+
+    footer div.google-maps > a > img {
+      height: 15vh;
+      width: 45vw;
+    }
+
+    footer div.google-maps > p {
+      width: 53vw;
+      margin-left: 2%;
+    }
+
+    footer div.mais-infos {
+      width: 84vw;
+      height: 30vh;
+      gap: 10vw;
+      margin-bottom: -10vh;
+    }
+
+    footer div.mais-infos > p {
+      width: 34vw;
+      font-size: 1.5vh;
     }
 }
   
