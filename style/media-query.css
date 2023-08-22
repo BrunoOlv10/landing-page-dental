@@ -118,7 +118,7 @@
     section.servicos {
       height: 170vh;
       flex-wrap: wrap;
-      margin: 35vw 0;
+      margin-top: 17vh;
     }
 
     div.card {
@@ -149,9 +149,9 @@
     }
 
     section.especialistas {
-      height: 120vh;
-      flex-wrap: w
-rap;
+      height: 110vh;
+      flex-wrap: wrap;
+      margin: 10vh 0;
     }
 
     section.especialistas > div.infos-especialistas {
@@ -159,6 +159,7 @@ rap;
       justify-content: center;
       flex-wrap: wrap;
       gap: 5vh;
+      height: 100vh;
     }
 
     div.infos {
@@ -185,6 +186,7 @@ rap;
       height: 25vh;
       width: 75vw;
       margin-bottom: 5vh;
+      border-radius: 0 0 10px 10px;
     }
 
     div.container > div.texto-experiencia {
@@ -193,6 +195,7 @@ rap;
       height: 30vh;
       width: 75vw;
       gap: 3vh;
+      border-radius: 10px 10px 0 0;
     }
 
     div.container > div.texto-experiencia > h3 {
@@ -203,6 +206,10 @@ rap;
     div.container > div.texto-experiencia > p {
       width: 65vw;
       height: 39vh;
+    }
+
+    div.texto-avaliacoes {
+      margin: 5vh 0;
     }
 
     section.avaliacoes {
@@ -227,7 +234,7 @@ rap;
     }
 
     footer {
-      height: 88vh;
+      height: 82vh;
       width: 100vw;
     }
 
@@ -260,7 +267,7 @@ rap;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      height: 75vh;
+      height: 70vh;
       width: 100vw;
       margin-bottom: -11vh !important;
       gap: 5vh;
@@ -268,8 +275,8 @@ rap;
 
     footer div.google-maps {
       flex-direction: column;
-      margin-top: -15vh;
-      margin-bottom: 3vh;
+      margin-top: -10vh;
+      margin-bottom: -3vh;
     }
 
     footer div.google-maps > a > img {
@@ -283,14 +290,13 @@ rap;
     }
 
     footer div.mais-infos {
-      width: 84vw;
+      flex-direction: column;
+      width: 90vw;
       height: 30vh;
-      gap: 10vw;
-      margin-bottom: -4vh;
     }
 
     footer div.mais-infos > p {
-      width: 34vw;
+      width: 90vw;
       font-size: 1.5vh;
     }
 }
