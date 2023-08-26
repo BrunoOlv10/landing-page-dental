@@ -149,9 +149,13 @@
     }
 
     section.especialistas {
-      height: 110vh;
+      height: 115vh;
       flex-wrap: wrap;
       margin: 10vh 0;
+    }
+
+    section.especialistas > p {
+      margin-top: 40px;
     }
 
     section.especialistas > div.infos-especialistas {
@@ -212,23 +216,27 @@
       margin: 5vh 0;
     }
 
-    section.avaliacoes {
+    section.avaliacoes > div.avaliacoes-cliente {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       flex-direction: column;
       height: 150vh;
-      width: 50vw;
+      width: 100vw;
       gap: 5vh;
+      margin: 5vh 0;
     }
 
-    section.avaliacoes > div.cliente {
+    section.avaliacoes > div.avaliacoes-cliente > div.cliente {
     height: 35vh;
     width: 50vw;
     }
 
-    section.avaliacoes > div.cliente > p {
+    section.avaliacoes > div.avaliacoes-cliente > div.cliente > p {
       width: 20vh;
     }
 
-    div.cliente > div.img-cliente {
+    div.avaliacoes-cliente > div.cliente > div.img-cliente {
       height: 9vh;
       width: 15vw;
     }
@@ -252,7 +260,7 @@
     }
 
     footer div.logo > div#logo-dental > img {
-      width: 12.5vw;
+      width: 14vw;
     }
 
     footer div.separador {
@@ -299,6 +307,10 @@
       width: 90vw;
       font-size: 1.5vh;
     }
+}
+
+@media (max-width: 999px) {
+
 }
   
   .nav-list.active {

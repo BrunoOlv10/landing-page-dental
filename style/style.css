@@ -392,7 +392,8 @@ div.container > div.texto-experiencia > p {
     margin: 0% 15.5%;
 }
 
-div.texto-avaliacoes {
+
+section.avaliacoes > div.texto-avaliacoes {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -405,38 +406,37 @@ div.texto-avaliacoes {
     margin: 10vh 0;
 }
 
-section.avaliacoes {
+section.avaliacoes > div.avaliacoes-cliente {
     display: flex;
     justify-content: center;
     color: black;
     text-align: center;
-    margin: 10vh;
+    width: 100vw;
+    margin: 10vh 0;
     gap: 3vw;
 }
 
-section.avaliacoes > div.cliente {
+section.avaliacoes > div.avaliacoes-cliente > div.cliente {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 38vh;
+    height: 35vh;
     width: 15vw;
     border-radius: 5px;
     border: var(--cinza) 2px solid;
     gap: 5%;
 }
 
-section.avaliacoes > div.cliente > p {
+section.avaliacoes > div.avaliacoes-cliente > div.cliente > p {
     font-size: 1.7vh;
     width: 24vh;
 }
 
-div.cliente > div.img-cliente {
+div.avaliacoes-cliente > div.cliente > div.img-cliente {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 11.5vh;
-    width: 5.7vw;
     background-color: var(--cinza-claro);
     border-radius: 50%;
 }
