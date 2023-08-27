@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+/* Typical Device Breakpoints 
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
 @font-face {
     font-family: 'Bebas';
     src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
@@ -14,14 +23,13 @@
     --cinza-escuro: #424242;
 }
 
-@media (max-width: 999px) {
+@media (min-width: 350px) and (max-width: 650px) {
     body {
-      overflow-x: hidden;
       /* overflow-y: hidden; */
     }
 
     nav {
-      gap: 2vh;
+      gap: 3vh;
       height: 10vh;
     }
   
@@ -49,14 +57,14 @@
     }
 
     nav > menu.abas-botao {
-      width: 25vw;
+      width: 32vw;
     }
 
     nav > menu.abas-botao > div {
       height: 8vh;
     }
   
-    .nav-list {
+    nav > menu.abas-botao > ul.nav-list {
       position: absolute;
       top: 10vh;
       left: 0;
@@ -71,23 +79,23 @@
       transition: transform 0.3s ease-in;
     }
 
-    .nav-list > li {
+    nav > menu.nav-list > li {
       margin-left: 0;
       opacity: 0;
       margin-left: 0px !important; 
     }
 
-    .nav-list > li > a {
+    nav > menu.nav-list > li > a {
       color: white !important;
       font-weight: normal !important;
       transition: 0.3s;
     }
     
-    .nav-list > li > a:hover {
+    nav > menu.nav-list > li > a:hover {
       opacity: 0.7;
     }
 
-    .mobile-menu {
+    nav > div.mobile-menu {
       display: block;
     }
 
@@ -95,6 +103,7 @@
       height: 5vh !important;
       width: 25vw !important;
       font-size: 1.4vh !important;
+      margin-right: 2vh;
     }
 
     div.background {
@@ -309,8 +318,80 @@
     }
 }
 
-@media (max-width: 999px) {
+@media (min-width: 650px) and (max-width: 1000px) {
+  body {
+    /* overflow-y: hidden; */
+  }
 
+  nav {
+    height: 10vh;
+    gap: 18vw;
+  }
+
+  nav div.logo-principal > img {
+    height: 6vh;
+    width: 8vw;
+  }
+
+  nav div.logo-principal > img:hover {
+    height: 7vh;
+    width: 9vw;
+  }
+  
+  nav div.logo-principal > h1 {
+    font-size: 3vh;
+  }
+
+  nav > menu.abas-botao {
+    width: 20vw;
+    margin-right: 2vh;
+  }
+
+  nav > menu.abas-botao > ul.nav-list {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 35vw;
+    height: 85vh;
+    background: var(--azul-escuro);
+    flex-direction: column;
+    gap: 10vh !important;
+    padding-top: 5vh;
+    border-radius: 5px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  nav > menu.nav-list > li {
+    margin-left: 0;
+    opacity: 0;
+    margin-left: 0px !important; 
+  }
+
+  nav > menu.nav-list > li > a {
+    color: white !important;
+    font-weight: normal !important;
+    transition: 0.3s;
+  }
+  
+  nav > menu.nav-list > li > a:hover {
+    opacity: 0.7;
+  }
+
+  nav > div.mobile-menu {
+    display: block;
+  }
+
+  nav div.logo-principal > img {
+    height: 7vh;
+    width: 9vw;
+  }
+
+  button.botao-nav {
+    width: 18vw;
+    height: 5.5vh;
+    font-size: 1.5vh;
+  }
 }
   
   .nav-list.active {
