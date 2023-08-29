@@ -160,7 +160,7 @@ Grandes telas: acima de 1200px
     section.especialistas {
       height: 115vh;
       flex-wrap: wrap;
-      margin: 10vh 0;
+      margin: 22vh 0 10vh 0;
     }
 
     section.especialistas > p {
@@ -205,7 +205,7 @@ Grandes telas: acima de 1200px
     div.container > div.texto-experiencia {
       align-items: center;
       justify-content: center;
-      height: 30vh;
+      height: 22vh;
       width: 75vw;
       gap: 3vh;
       border-radius: 10px 10px 0 0;
