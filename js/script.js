@@ -67,12 +67,12 @@ function mudarInsta() {
 
 function mudarLinkedin() {
     var linkedin = document.getElementById('linkedin').getElementsByTagName('img')[0];
-    linkedin.src = '../img/linkedin-logo-azul.png';
+    linkedin.src = '../img/logo-branca.png';
 }
   
     function voltarLinkedin() {
     var linkedin = document.getElementById('linkedin').getElementsByTagName('img')[0];
-    linkedin.src = '../img/linkedin-logo.png';
+    linkedin.src = '../img/logo.png';
   }
 
 
