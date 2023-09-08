@@ -231,7 +231,7 @@ button.botao-principal:hover {
 section.servicos {
     display: flex;
     justify-content: center;
-    gap: 10vh;
+    gap: 100px;
     margin: 4vw;
     color: white;
     text-align: center;
