@@ -223,9 +223,9 @@ Grandes telas: acima de 1200px
     }
 
     div.container > div.texto-experiencia > p {
-      width: 65vw;
-      height: 12vh;
-      margin-left: 9vw;
+      width: 265px;
+      height: 95px;
+      margin-left: 45px;
     }
 
     section.avaliacoes > div.texto-avaliacoes {
