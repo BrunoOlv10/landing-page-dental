@@ -133,7 +133,7 @@ Grandes telas: acima de 1200px
     section.servicos {
       height: 205vh;
       flex-wrap: wrap;
-      margin-top: 17vh;
+      margin-top: 80px;
       padding: 50px 0;
     }
 
@@ -165,9 +165,9 @@ Grandes telas: acima de 1200px
     }
 
     section.especialistas {
-      height: 115vh;
+      height: 106vh;
       flex-wrap: wrap;
-      margin-top: 75px;
+      margin-top: 20px;
     }
 
     section.especialistas > p {
@@ -178,8 +178,7 @@ Grandes telas: acima de 1200px
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 5vh;
-      height: 100vh;
+      height: 90vh;
     }
 
     div.infos {
@@ -259,7 +258,7 @@ Grandes telas: acima de 1200px
     }
 
     footer {
-      height: 85vh;
+      height: 730px;
       width: 100vw;
     }
 
