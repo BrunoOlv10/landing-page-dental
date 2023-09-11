@@ -202,7 +202,7 @@ Grandes telas: acima de 1200px
     }
 
     div.container > div.img-container > img {
-      height: 280px;
+      height: 270px;
       width: 340px;
       margin-bottom: 5vh;
       border-radius: 0 0 10px 10px;
@@ -211,7 +211,7 @@ Grandes telas: acima de 1200px
     div.container > div.texto-experiencia {
       align-items: center;
       justify-content: center;
-      height: 280px;
+      height: 270px;
       width: 340px;
       gap: 1vh;
       border-radius: 10px 10px 0 0;
