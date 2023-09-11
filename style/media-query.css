@@ -258,7 +258,7 @@ Grandes telas: acima de 1200px
     }
 
     footer {
-      height: 730px;
+      height: 85vh;
       width: 100vw;
     }
 
@@ -495,6 +495,7 @@ Grandes telas: acima de 1200px
 
   div.container > div.texto-experiencia > p {
     width: 300px;
+    margin-left: 7vw;
   }
 
   div.container > div.img-container > img {
