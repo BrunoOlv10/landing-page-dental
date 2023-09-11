@@ -213,7 +213,7 @@ Grandes telas: acima de 1200px
       justify-content: center;
       height: 250px;
       width: 340px;
-      gap: 3vh;
+      gap: 1vh;
       border-radius: 10px 10px 0 0;
     }
 
