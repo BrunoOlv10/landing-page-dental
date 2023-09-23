@@ -487,7 +487,15 @@ footer div.separador {
 footer div.separador > div.linha {
     width: 190vh;
     border: 1px solid white;
+}
+
+footer div.separador-1 > div.linha {
     margin-bottom: 3.5vh;
+}
+
+footer div.separador-2 > div.linha {
+    margin-top: 3.5vh;
+    margin-bottom: 0;
 }
 
 footer div.linha-ultima {

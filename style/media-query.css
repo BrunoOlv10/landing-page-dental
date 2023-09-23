@@ -573,8 +573,105 @@ Grandes telas: acima de 1200px
   }
 }
 
-@media (min-width: 1020px) and (max-width: 1800px) {
+@media (min-width: 1020px) and (max-width: 1300px) {
+  nav {
+    gap: 10vw;
+  }
 
+  nav menu.abas-botao > .nav-list {
+    gap: 17px;
+  }
+
+  nav > menu.abas-botao {
+    width: 60vw;
+  }
+
+  nav div.logo-principal > img {
+    width: 7vw;
+  }
+
+  nav div.logo-principal > img:hover {
+    width: 7vw;
+  }
+
+  section.servicos {
+    height: 90vh;
+    flex-wrap: wrap;
+    margin: 6vw;
+    gap: 90px;
+  }
+
+  div.card {
+    height: 40vh;
+    width: 23vw;
+  }
+
+  div.card > div > img {
+    width: 5vw;
+  }
+
+  div.card > p {
+    width: 20vw;
+  }
+
+  section.especialistas > div.infos-especialistas {
+    gap: 55px;
+  }
+
+  div.container > div.img-container > img {
+    height: 35vh;
+    width: 40vw;
+  }
+  
+  div.container > div.texto-experiencia {
+    height: 35vh;
+    width: 40vw;
+  }
+
+  section.avaliacoes > div.avaliacoes-cliente > div.cliente {
+    width: 21vw;
+  }
+
+  footer {
+    height: 70vh;
+  }
+
+  footer div.contato {
+    gap: 12px;
+  }
+
+  footer div.contato > a > img {
+    width: 2vw
+  }
+
+  footer div.logo {
+    gap: 5px;
+  }
+
+  footer div.logo > div#logo-dental > img {
+    width: 5vw;
+  }
+
+  footer div.mais-infos {
+    height: 40vh;
+  }
+
+  footer div.google-maps > a > img {
+    height: 18vh;
+    width: 20vw;
+  }
+
+  footer div.google-maps > p {
+    margin-left: 15px;
+  }
+
+  footer div.maps-ultimas-infos {
+    margin-bottom: 15vh;
+  }
+
+  footer div.separador-2 > div.linha {
+    margin-top: -23vh;
+  }
 }
   
   .nav-list.active {
