@@ -23,7 +23,7 @@ Grandes telas: acima de 1200px
     --cinza-escuro: #424242;
 }
 
-@media (min-width: 350px) and (max-width: 650px) {
+@media (min-width: 300px) and (max-width: 650px) {
     body {
       /* overflow-y: hidden; */
     }
@@ -443,11 +443,12 @@ Grandes telas: acima de 1200px
     flex-wrap: wrap;
     height: 700px;
     margin: 70px 0;
+    gap: 115px;
   }
 
   section.servicos > div.card {
-    width: 200px;
-    height: 270px;
+    width: 220px;
+    height: 300px;
   }
 
   div.card > div > img {
@@ -460,11 +461,13 @@ Grandes telas: acima de 1200px
   }
 
   section.especialistas {
+    height: 490px;
     margin: 0;
   }
 
   section.especialistas > div.infos-especialistas {
     gap: 65px;
+    margin-top: 35px;
   }
 
   div.infos {
@@ -526,7 +529,7 @@ Grandes telas: acima de 1200px
   }
 
   footer {
-    height: 800px;
+    height: 900px;
   }
 
   footer div.endereco-contato {
@@ -566,6 +569,7 @@ Grandes telas: acima de 1200px
     flex-direction: column;
     width: 90vw;
     height: 30vh;
+    margin-top: 40px;
   }
 
   footer div.mais-infos > p {
@@ -573,7 +577,7 @@ Grandes telas: acima de 1200px
   }
 }
 
-@media (min-width: 1020px) and (max-width: 1300px) {
+@media (min-width: 1020px) and (max-width: 1100px) {
   nav {
     gap: 10vw;
   }
@@ -673,6 +677,13 @@ Grandes telas: acima de 1200px
     margin-top: -23vh;
   }
 }
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+  section.servicos {
+    gap: 115px;
+  }
+}
+
   
   .nav-list.active {
     transform: translateX(0);

@@ -290,8 +290,7 @@ section.especialistas {
     justify-content: center;
     flex-direction: column;
     background-color: var(--cinza-claro);
-    height: 45vh;
-    gap: 1vh;
+    height: 355px;
     margin: 10vh 0;
 }
 
@@ -308,6 +307,7 @@ section.especialistas > p {
 section.especialistas > div.infos-especialistas {
     display: flex;
     justify-content: center;
+    margin-top: 35px;
 }
 
 div.infos {
@@ -397,8 +397,7 @@ section.avaliacoes > div.texto-avaliacoes {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    height: 10vh;
-    margin: 10vh 0;
+    height: 60px;
 }
 
 section.avaliacoes > div.avaliacoes-cliente {
@@ -407,7 +406,7 @@ section.avaliacoes > div.avaliacoes-cliente {
     color: black;
     text-align: center;
     width: 100vw;
-    margin: 10vh 0;
+    margin: 50px 0;
     gap: 3vw;
 }
 
@@ -534,6 +533,7 @@ footer div.mais-infos {
     gap: 3vw;
     color: white;
     height: 10vh;
+    
 }
 
 footer div.mais-infos > p {
