@@ -23,14 +23,14 @@ Grandes telas: acima de 1200px
     --cinza-escuro: #424242;
 }
 
-@media (min-width: 300px) and (max-width: 650px) {
+@media (min-width: 300px) and (max-width: 450px) {
     body {
       /* overflow-y: hidden; */
     }
 
     nav {
       gap: 2vh;
-      height: 10vh;
+      height: 80px;
     }
   
     nav > .mobile-menu {
@@ -180,7 +180,6 @@ Grandes telas: acima de 1200px
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      height: 90vh;
     }
 
     div.infos {
@@ -344,13 +343,13 @@ Grandes telas: acima de 1200px
   }
 
   nav div.logo-principal > img {
-    height: 6vh;
-    width: 8vw;
+    height: 5vh;
+    width: 6vw;
   }
 
   nav div.logo-principal > img:hover {
-    height: 7vh;
-    width: 9vw;
+    height: 5vh;
+    width: 6vw;
   }
   
   nav div.logo-principal > h1 {
@@ -407,14 +406,9 @@ Grandes telas: acima de 1200px
     display: block;
   }
 
-  nav div.logo-principal > img {
-    height: 7vh;
-    width: 9vw;
-  }
-
   button.botao-nav {
     width: 18vw;
-    height: 5.5vh;
+    height: 4.5vh;
     font-size: 1.5vh;
   }
 
@@ -580,6 +574,7 @@ Grandes telas: acima de 1200px
 @media (min-width: 1020px) and (max-width: 1100px) {
   nav {
     gap: 10vw;
+    height: 80px;
   }
 
   nav menu.abas-botao > .nav-list {
@@ -591,11 +586,17 @@ Grandes telas: acima de 1200px
   }
 
   nav div.logo-principal > img {
-    width: 7vw;
+    width: 5vw;
+    height: 7vh;
   }
 
   nav div.logo-principal > img:hover {
-    width: 7vw;
+    width: 5vw;
+    height: 7vh;
+  }
+
+  button.botao-nav {
+    height: 45px;
   }
 
   section.servicos {
@@ -678,9 +679,93 @@ Grandes telas: acima de 1200px
   }
 }
 
-@media (min-width: 1100px) and (max-width: 1300px) {
-  section.servicos {
-    gap: 115px;
+@media (min-width: 1920px) {
+  nav, header {
+    height: 10vh;
+    gap: 30vw;
+  }
+
+  nav div.logo-principal > img {
+    height: 6.5vh;
+    width: 3.5vw;
+  }
+
+  nav div.logo-principal > img:hover {
+    height: 6.5vh;
+    width: 3.5vw;
+  }
+
+  nav > menu.abas-botao {
+    width: 47vw;
+  }
+
+  nav > menu.abas-botao > ul > li > a {
+    font-size: 25px;
+  }
+
+  button.botao-nav {
+    height: 5vh;
+    width: 9vw;
+  }
+
+  div.card {
+    height: 31vh;
+    width: 13vw;
+  }
+
+  div.card > p {
+    font-size: 1em;
+  }
+
+  div.cinza > p > span {
+    font-size: 1em;
+  }
+
+  section.especialistas {
+    height: 520px;
+  }
+
+  div.container > div.texto-experiencia > h3 {
+    font-size: 2em;
+  }
+
+  div.container > div.texto-experiencia > p {
+    font-size: 1.5em;
+  }
+
+  section.avaliacoes > div.texto-avaliacoes {
+    height: 80px;
+  }
+
+  section.avaliacoes > div.texto-avaliacoes > h2 {
+    font-size: 2.5em;
+  }
+
+  section.avaliacoes > div.avaliacoes-cliente > div.cliente > h3 {
+    font-size: 1.5em;
+  }
+
+  div.avaliacoes-cliente > div.cliente > div.img-cliente {
+    height: 100px;
+    width: 100px;
+  }
+
+  div.avaliacoes-cliente > div.cliente > div.img-cliente > img {
+    height: 75px;
+    width: 75px;
+  }
+
+  footer {
+    height: 48vh;
+  }
+
+  footer div.logo > div#logo-dental > img {
+    height: 4.5vh;
+    width: 2.5vw;
+  }
+
+  footer div.google-maps > p {
+    font-size: 1.3em;
   }
 }
 
